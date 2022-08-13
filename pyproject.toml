@@ -5,7 +5,7 @@ description = ""
 authors = ["Seth Bangert <seth@sbang.me>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 numpy = "^1.23.1"
 
 [tool.poetry.dev-dependencies]
