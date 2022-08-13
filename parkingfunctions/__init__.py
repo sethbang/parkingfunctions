@@ -1,1 +1,4 @@
-__version__ = '0.1.0'
+
+
+from .generates import generator
+from .validate import pigeonhole_check, get_outcome
