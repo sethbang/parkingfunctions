@@ -44,7 +44,7 @@ def get_outcome(park_func):
         park_func (list): A list representing a parking function.
 
     Returns:
-        list: The outcome of a given parking function.
+        list: The outcome of a given parking function with displacement.
 
     """
 
