@@ -7,6 +7,7 @@ authors = ["Seth Bangert <seth@sbang.me>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 numpy = "^1.23.1"
+myst-parser = "^0.18.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
