@@ -8,6 +8,7 @@ authors = ["Seth Bangert <seth@sbang.me>"]
 python = "^3.8"
 numpy = "^1.23.1"
 myst-parser = "^0.18.0"
+sphinx-rtd-theme = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
