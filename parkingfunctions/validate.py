@@ -1,14 +1,28 @@
 import numpy as np
 
 
-def pigeonhole_check(p):
-    p_n = len(p)
+def pigeonhole_check(park_func):
+
+    """Validates a Parking Function.
+
+    Validates a parking function with pigeonhole principle.
+
+    Args:
+        park_func (list): A list representing a parking function.
+
+    Returns:
+        bool: If parking function is valid.
+
+    Raises:
+        IOError: An error occurred.
+    """
+    p_n = len(park_func)
 
     for i in range(p_n):
 
         m = 0
 
-        for j in p:
+        for j in park_func:
 
             if j > p_n:
                 return False

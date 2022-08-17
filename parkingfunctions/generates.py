@@ -3,15 +3,21 @@ from .validate import pigeonhole_check
 from numpy import random
 
 def generator(num_cars=9, num_funcs=1):
-    """ Generate parking function(s)
-    Parameters:
-    num_cars (int): Number of cars in each parking function.
-    num_funcs (int): Number of parking functions to generate.
-                    Deault is 1, if > 1 will return array of pfs.
-    
-    Returns:
-    Array or Array of Arrays
 
+    """Generates list of parking functions.
+
+    Generates and returns a list of size num_funcs of
+    valid parking functions [pf] each of desired length num_cars.
+
+    Args:
+        num_cars (int): Int representing the size of individual pfs. 
+        num_funcs (int): Int representing the number of pfs returned.
+
+    Returns:
+        list: A list of randomly generated valid parking functions.
+
+    Raises:
+        IOError: An error occurred.
     """
 
     number_cars = num_cars
