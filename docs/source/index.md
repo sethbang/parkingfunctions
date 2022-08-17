@@ -8,8 +8,8 @@
 :relative-images:
 ```
 
-For further info, check out {doc}`usage`.
-Read installation instructions in {ref}`Installation`.
+<!-- For further info, check out {doc}`usage`.
+Read installation instructions in {ref}`Installation`. -->
 
 ```{warning}
 This library is still under development!
@@ -18,5 +18,7 @@ This library is still under development!
 :caption: 'Contents:'
 :maxdepth: 2
 
-usage
+Getting Started <start>
+Generate PFs <gen>
+Validate PFs <val>
 ```

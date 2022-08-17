@@ -16,8 +16,6 @@ def generator(num_cars=9, num_funcs=1):
     Returns:
         list: A list of randomly generated valid parking functions.
 
-    Raises:
-        IOError: An error occurred.
     """
 
     number_cars = num_cars

@@ -13,8 +13,6 @@ def pigeonhole_check(park_func):
     Returns:
         bool: If parking function is valid.
 
-    Raises:
-        IOError: An error occurred.
     """
     p_n = len(park_func)
 
@@ -36,11 +34,24 @@ def pigeonhole_check(park_func):
     return True
 
 
-def get_outcome(p):
-    if not pigeonhole_check(p):
+def get_outcome(park_func):
+
+    """Returns the outcome of a given parking function.
+
+    Takes in a parking function and returns the outcome.
+
+    Args:
+        park_func (list): A list representing a parking function.
+
+    Returns:
+        list: The outcome of a given parking function.
+
+    """
+
+    if not pigeonhole_check(park_func):
         return "This is not a valid parking function"
     displacement = 0
-    func_pi = p.copy()
+    func_pi = park_func.copy()
 
     pi_length = len(func_pi)
 
